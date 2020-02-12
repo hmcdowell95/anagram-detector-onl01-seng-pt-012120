@@ -7,7 +7,7 @@ class Anagram
 
   
 
-  def self.match(array)
+  def match(array)
     a = self.chars
     c = []
     array.each do |x|
