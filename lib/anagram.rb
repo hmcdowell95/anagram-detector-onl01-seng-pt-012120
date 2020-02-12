@@ -8,7 +8,7 @@ class Anagram
   
 
   def match(array)
-    a = self.chars
+    a = @word.chars
     c = []
     array.each do |x|
       b = x.chars
